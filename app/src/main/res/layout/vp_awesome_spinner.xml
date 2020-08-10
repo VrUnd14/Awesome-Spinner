@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    tools:parentTag="android.widget.RelativeLayout">
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinnerAwesome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/title"
+        android:background="@drawable/edit_back"
+        android:clipToPadding="false"
+        android:paddingLeft="25dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/spinner_head_back"
+        android:gravity="center_vertical"
+        android:paddingEnd="8dp"
+        android:text="Languages / State"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/curveImg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/title"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_spinner_head"
+        app:tint="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/spnDrop"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ic_spn" />
+</merge>

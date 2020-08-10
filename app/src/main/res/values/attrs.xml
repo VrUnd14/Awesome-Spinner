@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="VPAwesomeSpinner">
+        <attr format="string" name="title"/>
+        <attr format="string" name="spinnerTag"/>
+        <attr format="reference" name="titleColor"/>
+        <attr format="reference" name="tintColor"/>
+    </declare-styleable>
+</resources>
