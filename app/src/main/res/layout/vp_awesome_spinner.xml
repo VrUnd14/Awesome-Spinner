@@ -20,7 +20,7 @@
         android:layout_height="match_parent"
         android:background="@drawable/spinner_head_back"
         android:gravity="center_vertical"
-        android:paddingEnd="8dp"
+        android:paddingStart="8dp"
         android:text="Languages / State"
         android:textColor="@android:color/white" />
 
