@@ -94,6 +94,10 @@ class VPAwesomeSpinner @JvmOverloads constructor(context: Context, attrs: Attrib
         spinnerAwesome.setSelection(pos)
     }
 
+    fun getSelectedItem(): Any {
+        return spinnerAwesome.selectedItem
+    }
+
     fun setOnItemSelectedListener(listener: AdapterView.OnItemSelectedListener?) {
         spinnerAwesome.onItemSelectedListener = listener
     }
