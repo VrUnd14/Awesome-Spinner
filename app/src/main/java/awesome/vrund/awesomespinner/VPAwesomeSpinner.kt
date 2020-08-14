@@ -50,7 +50,7 @@ class VPAwesomeSpinner @JvmOverloads constructor(context: Context, attrs: Attrib
         dividerGD.setColor(dividerColor)
         ld.setDrawableByLayerId(R.id.divider, dividerGD)
 
-        spinnerAwesome.tag = ta.getStringOrThrow(R.styleable.VPAwesomeSpinner_vp_spinnerTag)
+        spinnerAwesome.tag = ta.getString(R.styleable.VPAwesomeSpinner_vp_spinnerTag)
 
         ta.recycle()
     }
