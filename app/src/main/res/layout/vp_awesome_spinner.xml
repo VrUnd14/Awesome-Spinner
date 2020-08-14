@@ -28,7 +28,7 @@
         android:layout_height="match_parent"
         android:layout_toRightOf="@id/title"
         android:scaleType="fitXY"
-        android:src="@drawable/ic_spinner_head"
+        android:src="@drawable/vp_spinner_head"
         app:tint="@color/vp_colorPrimary" />
 
     <ImageView
@@ -38,5 +38,5 @@
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
         android:layout_marginRight="5dp"
-        android:src="@drawable/ic_spn" />
+        android:src="@drawable/vp_spn" />
 </merge>
