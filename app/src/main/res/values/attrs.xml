@@ -6,5 +6,6 @@
         <attr format="reference" name="vp_titleColor"/>
         <attr format="reference" name="vp_tintColor"/>
         <attr format="reference" name="vp_backColor"/>
+        <attr format="reference" name="vp_dividerColor"/>
     </declare-styleable>
 </resources>

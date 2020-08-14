@@ -45,7 +45,7 @@ class VPAwesomeSpinner @JvmOverloads constructor(context: Context, attrs: Attrib
         backGD.setColor(backColor)
         ld.setDrawableByLayerId(R.id.back, backGD)
 
-        val dividerColor = ta.getColor(R.styleable.VPAwesomeSpinner_vp_backColor, ContextCompat.getColor(context, R.color.vp_divider_color))
+        val dividerColor = ta.getColor(R.styleable.VPAwesomeSpinner_vp_dividerColor, ContextCompat.getColor(context, R.color.vp_divider_color))
         val dividerGD = ContextCompat.getDrawable(context, R.drawable.vp_divider) as GradientDrawable
         dividerGD.setColor(dividerColor)
         ld.setDrawableByLayerId(R.id.divider, dividerGD)
