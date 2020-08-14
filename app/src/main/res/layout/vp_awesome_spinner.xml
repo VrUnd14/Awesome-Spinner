@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_toRightOf="@id/title"
-        android:background="@drawable/edit_back"
+        android:background="@drawable/vp_edit_back"
         android:clipToPadding="false"
         android:paddingLeft="25dp" />
 
@@ -18,10 +18,9 @@
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:background="@drawable/spinner_head_back"
+        android:background="@drawable/vp_spinner_head_back"
         android:gravity="center_vertical"
         android:paddingStart="8dp"
-        android:text="Languages / State"
         android:textColor="@android:color/white" />
 
     <ImageView
@@ -31,7 +30,7 @@
         android:layout_toRightOf="@id/title"
         android:scaleType="fitXY"
         android:src="@drawable/ic_spinner_head"
-        app:tint="@color/colorPrimary" />
+        app:tint="@color/vp_colorPrimary" />
 
     <ImageView
         android:id="@+id/spnDrop"

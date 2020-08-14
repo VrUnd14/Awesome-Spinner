@@ -1,0 +1,39 @@
+Index: app/src/main/java/awesome/vrund/awesomespinner/MainActivity.kt
+===================================================================
+--- app/src/main/java/awesome/vrund/awesomespinner/MainActivity.kt	(revision b4c268c9af701ffa21cd33b7e78631e593e554ae)
++++ app/src/main/java/awesome/vrund/awesomespinner/MainActivity.kt	(revision b4c268c9af701ffa21cd33b7e78631e593e554ae)
+@@ -1,11 +0,0 @@
+-package awesome.vrund.awesomespinner
+-
+-import androidx.appcompat.app.AppCompatActivity
+-import android.os.Bundle
+-
+-class MainActivity : AppCompatActivity() {
+-    override fun onCreate(savedInstanceState: Bundle?) {
+-        super.onCreate(savedInstanceState)
+-        setContentView(R.layout.vp_awesome_spinner)
+-    }
+-}
+\ No newline at end of file
+Index: app/src/main/AndroidManifest.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/AndroidManifest.xml	(revision b4c268c9af701ffa21cd33b7e78631e593e554ae)
++++ app/src/main/AndroidManifest.xml	(date 1597292501000)
+@@ -9,13 +9,7 @@
+         android:roundIcon="@mipmap/ic_launcher_round"
+         android:supportsRtl="true"
+         android:theme="@style/AppTheme">
+-        <activity android:name=".MainActivity">
+-            <intent-filter>
+-                <action android:name="android.intent.action.MAIN" />
+ 
+-                <category android:name="android.intent.category.LAUNCHER" />
+-            </intent-filter>
+-        </activity>
+     </application>
+ 
+ </manifest>
+\ No newline at end of file

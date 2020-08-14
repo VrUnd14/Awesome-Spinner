@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="vp_colorPrimary">#6200EE</color>
+    <color name="vp_colorPrimaryDark">#3700B3</color>
+    <color name="vp_colorAccent">#03DAC5</color>
 
-    <color name="background">#f1f1f1</color>
+    <color name="vp_back_color">#f1f1f1</color>
+    <color name="vp_divider_color">#444444</color>
 </resources>
